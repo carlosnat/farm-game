@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="game/screen/controls/screenControls.js"></script>
+    <script src="game/screen/interface/top.js"></script>
+    <script src="game/lopp/gameLoop.js"></script>
+    <script src="game/start.js"></script>
+    <script src="game/initialState.js"></script>
+    <script src="game/store.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/gui-style.css">
+    <link rel="stylesheet" href="./styles/store.style.css">
+    <link rel="stylesheet" href="gui.styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+</head>
+<body>
+
+
+    <!-- div id="gameStats">
+        <div>
+            <label for="gameStatus">Status:</label>
+            <span id="gameStatus"></span>
+        </div>
+        <div>
+            <label for="gameTime">Tiempo:</label>
+            <span id="gameTime"></span>
+        </div>
+        <button id="start">Iniciar</button>
+        <button id="stop">Detener</button>
+        <button id="restart">Reiniciar</button>
+    </div>
+    
+    <div id="gameScreen">
+        <div>
+            <span>Playing:</span>
+            <div id="character-playing"></div>
+        </div>
+        <span id="sun"></span>
+        <div class="ground">
+        </div>
+    </div -->
+
+    <div class="wrap">
+            <div class="controls">
+              <div class="time-btns">
+                <span class="btn-time fa fa-play"></span>
+                <span class="btn-time fa fa-pause"></span>
+                <span class="btn-time fa fa-stop"></span>
+              </div>
+              <div class="game-stats center-content">
+                  <div>
+                    <i class="far fa-calendar-alt block-center"></i>
+                    <span>
+                    <label>Dia:</label>
+                      2
+                    </span>
+                    <span>
+                      <label>Mes:</label>
+                      0
+                    </span>
+                  </div>
+                  <div>
+                    <span>
+                      <i class="fas fa-dollar-sign block-center"></i>
+                      99999
+                    </span>
+                  </div>
+              </div>
+              <div class="store">
+                <div class="store-btns center-content">
+                  <button id="human-store" class="fa fa-user"></button>
+                  <button id="animal-store" class="fa fa-dog"></button>
+                </div>
+          
+                  <div class="human-store stores show">
+                    <div class="store-item center-content">
+                  <div class="item-image center-content">
+                    <img src="https://www.pngrepo.com/png/52935/170/rake.png" alt="">
+                  </div>
+                  <div class="item-price center-content">
+                    <i class="fas fa-dollar-sign"></i>
+                    <span>1234</span>
+                  </div>
+                </div>
+                    <div class="store-item center-content">
+                    <div class="item-image center-content">
+                      <img src="https://images.vexels.com/media/users/3/137987/isolated/preview/68cc6ef2b08689d9255adfcbc3b7e246-farm-truck-transport-icon-by-vexels.png" alt="">
+                    </div>
+                    <div class="item-price center-content">
+                      <i class="fas fa-dollar-sign"></i>
+                      <span>1234</span>
+                    </div>
+          </div>
+                  </div>
+                  <div class="animal-store stores hide">
+                    <div class="store-item center-content">
+                    <div class="item-image center-content">
+                      <img src="https://images.vexels.com/media/users/3/137987/isolated/preview/68cc6ef2b08689d9255adfcbc3b7e246-farm-truck-transport-icon-by-vexels.png" alt="">
+                    </div>
+                    <div class="item-price center-content">
+                      <i class="fas fa-dollar-sign"></i>
+                      <span>1234</span>
+                    </div>
+          </div>
+                  </div>
+          
+              </div>
+            </div>
+            <div class="screen-play">
+              <div class="farm">
+                <div class="farm-gui">
+                  <div class="sun-moon center-content">
+                    <img src="https://cdn.clipart.email/4857d7aa87109af9992cdd60b6dd5442_moon-crescent-clipart-transparent-png-stickpng_3000-3000.png" alt="">
+                  </div>
+                  <div class="power-ups"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+</body>
+</html>

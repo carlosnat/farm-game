@@ -1,0 +1,46 @@
+.store{
+    flex: 3;
+    /* background-color: gold; */
+    display:flex;
+    flex-direction:column;
+}
+
+.stores{
+    display:flex;
+}
+
+.store-item{
+    background-color: var(--store-item-background);
+    color: var(--white); 
+    border-radius:13px;
+    display:flex;
+    flex-direction:column;
+    height: 7em;
+    margin:3%;
+}
+
+.store-item .item-image {
+    width:12vh;
+    height: 12vh;
+    /* background-color: #fff; */
+}
+
+.store-item .item-image img{
+    max-width:70%;
+}
+
+.store-btns{
+    width:100%;
+    height: 5vw;
+    /* background-color: cyan; */
+    justify-content: space-around;
+}
+
+.store-btns button{
+    width:45%;
+    height: 3vw;
+    border:0;
+    outline:none;
+    font-size: 1em;
+    cursor: pointer;
+}

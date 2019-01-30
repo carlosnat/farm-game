@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Thambi');
+
+html, body {
+    width: 100%;
+    height: 100vw;
+    font-family: 'Baloo Thambi', cursive;
+}
+
+:root{
+    --tile-size: 40px;
+    --map-size: 40%;
+}
+
+.ground{
+    font-size: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    width: var(--map-size);
+}
+
+.tile-sand{
+    width: var(--tile-size);
+    height: var(--tile-size);
+    background: brown;
+}
+
+.tile-green{
+    width: var(--tile-size);
+    height: var(--tile-size);
+    background: green;
+}
+
+.character-image{
+    max-width: 4vw;
+}
